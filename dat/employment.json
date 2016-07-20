@@ -1,0 +1,76 @@
+[
+    	{
+    		"title": "Assistant Professor and Canada Research Chair (Tier II)",
+    		"date": "2014-07-01",
+    		"department": "Digital Media, Visual Art & Art History",
+    		"section": "School of Arts, Media, Performance and Design",
+    		"institution": "York University",
+    		"where": "Toronto, Canada"
+    	},
+    	{
+    		"title": "Visiting Professor",
+    		"date": "2013-02-01", "date_end": "2014-06-30",
+    		"section": "Graduate School of Culture Technology",
+    		"institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+    		"where": "Daejeon, Republic of Korea"
+    	},
+    	{
+    		"title": "Lecturer",
+    		"date": "2013-03-01", "date_end": "2013-05-30",
+    		"section": "Art and Technology",
+    		"institution": "Sogang University",
+    		"where": "Seoul, Republic of Korea"
+    	},
+    	{
+    		"title": "Post-Doctoral Researcher",
+    		"date": "2012-09-01", "date_end": "2012-12-30",
+    		"department": "AlloSphere Research Group",
+    		"section": "California Nanosystems Institute",
+    		"institution": "University of California, Santa Barbara",
+    		"where": "USA"
+    	},
+    	{
+    		"title": "Faculty Lecturer",
+    		"date": "2009-09-01", "date_end": "2011-04-30",
+    		"section": "Mediascapes Graduate Program",
+    		"institution": "Southern California Institute for Architecture (SCI-Arc)",
+    		"where": "Los Angeles, USA"
+    	},
+    	{
+    		"title": "Graduate Researcher",
+    		"date": "2008-09-01", "date_end": "2012-08-30",
+    		"department": "AlloSphere Research Group",
+    		"section": "California Nanosystems Institute",
+    		"institution": "University of California, Santa Barbara",
+    		"where": "USA"
+    	},
+    	{
+    		"title": "Software Developer",
+    		"date": "2008-08-01", 
+    		"department": "Gen project",
+    		"section": "Software Engineering",
+    		"institution": "Cycling 74",
+    		"where": "San Francisco, USA"
+    	},
+    	{
+    		"title": "Contract Software Consultant",
+    		"date": "2007-07", "date_end": "2012-12",
+    		"section": "Vizard Auralizer",
+    		"institution": "WorldViz LLC",
+    		"where": "Santa Barbara, USA"
+    	},
+    	{
+    		"title": "Teaching Associate",
+    		"date": "2006-09-01", "date_end": "2008-04-30",
+    		"section": "College of Creative Studies",
+    		"institution": "University of California, Santa Barbara",
+    		"where": "USA"
+    	},
+    	{
+    		"title": "Developer, Department Manager",
+    		"date": "1999-07-01", "date_end": "2004-07-30",
+    		"section": "Interactive Media",
+    		"institution": "Stafford Long & Partners advertising agency",
+    		"where": "London, UK"
+    	}
+    ]
