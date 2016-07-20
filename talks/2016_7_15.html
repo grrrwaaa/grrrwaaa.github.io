@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VR Worldmaking</title>
+<meta charset="utf-8">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,200,100' rel='stylesheet' type='text/css'>
+<style>
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+html, body { 
+	font-family: 'Roboto'; 
+	font-weight: 200; 
+
+	color: #ddd;
+	background-color: #000;
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Roboto';
+	font-weight: 100;
+    margin-bottom: 0;
+}
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+.remark-slides-area {
+	background-color: #000;
+}
+.remark-slide-scaler {
+	box-shadow: 0 0 30px #444;
+}
+.remark-slide-content {
+	background-color:#000;
+	color: #ddd;
+	padding: 20px 60px 20px 60px;
+	
+}
+
+li {
+	
+	font-family: 'Roboto'; 
+	font-weight: 200; 
+}
+
+.pull-left {
+	float: left;
+	width: 48%;
+  }
+  .pull-right {
+	float: right;
+	width: 30%;
+  }
+  .pull-right ~ p {
+	clear: both;
+  }
+  
+  /* Two-column layout */
+  .left-column {
+	color: #777;
+	width: 20%;
+	height: 92%;
+	float: left;
+  }
+	.left-column h2:last-of-type, .left-column h3:last-child {
+	  color: #000;
+	}
+  .right-column {
+	width: 75%;
+	float: right;
+	padding-top: 1em;
+  }
+.footnote {
+	position: absolute;
+	bottom: 3em;
+	font-size: 0.7em;
+  }
+img { max-width: 100%; }
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+strong, b {
+	color: #33bbee;
+}
+
+a, a:visited, a:link, a:hover, a:active {
+	text-decoration: none;
+	background-color: transparent;
+	color: #33bbee;
+   	border-color: #33bbee;
+    border-style: dotted;
+	border-width: 0 0 0px 0;
+}
+
+a:hover {
+	border-width: 0 0 1px 0;	
+}
+
+a img, a:hover img {
+	text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+<textarea id="source">
+
+class: center, middle
+background-color: #000; 
+background-image: url(vr_worldmaking.jpg)
+	
+---
+
+# Graham Wakefield
+
+York University:
+- Assistant Professor, Computational Arts, Visual Art & Art History
+- Canada Research Chair (II) Interactive Information Visualization
+- Alice lab for Computational Worldmaking
+- Sensorium, Centre for Vision Research ORUs
+
+- Artificial Nature (w/ Prof. Ji)
+
+- Cycling '74
+	
+---
+
+class: center, middle
+
+![ar-vr continuum](https://upload.wikimedia.org/wikipedia/en/d/dc/Virtuality_Continuum_2.jpg)
+
+The virtuality continuum ranges between the completely virtual and the completely real. The concept was first introduced by Paul Milgram and Fumio Kishino in 1994.
+
+It places both Augmented Reality (including lens, screen, and projected variants) and Virtual Reality (including HMD and CAVE variants) within a broader set of Mixed Reality.
+
+---
+
+# The VR illusion of non-mediation
+
+- **Persistence of vision**. Plausibly similar images at 12-15 fps fuse into movement. *Plausibility* in this case is a function of neurophysiology and cognition.
+- **Stereoscopic parallax effect**. Emulating the depth cue due to lateral displacement of eyes, as in 3D cinema. However since there is no screen frame, objects can be right in front of your nose. 
+
+- **Head tracking** to register the images seen with the head orientation. The illusion breaks down if the **motion-to-photon latency** is greater than around 10ms. 90 fps is recommended to avoid "judder". If head position is not tracked you cannot look around, over and under things, and there is increased nausea.
+
+Instead of an image moving in front of your eyes, the world appears as a fixed space in which you are moving your own head. Together with the qualities of content, this leads to the evocation of **presence**, the sense of actually being-there in the world, sometimes referred to as the *continuous illusion of non-mediation*. 
+
+---
+
+# VR isn't new
+
+
+1838: Sir Charles Wheatstone invents [stereoscopic photography](https://www.youtube.com/watch?v=Pu6SOckMxT0&feature=youtu.be).
+
+.pull-right[![Sword of Damocles](http://blog.modernmechanix.com/mags/qf/c/PopularScience/4-1971/med_vr_goggles.jpg)]
+
+1965: Ivan Sutherland pens [The Ultimate Display. Ivan E Sutherland, 1965](http://worrydream.com/refs/Sutherland%20-%20The%20Ultimate%20Display.pdf), inspiring everything from the Holodeck to the Matrix. 
+
+1968: Ivan Sutherland's Sword of Damocles, widely considered to be the first virtual reality (VR) and augmented reality (AR) head-mounted display (HMD) system. DARPA. 
+
+.footnote[(See also [The Rise and Fall and Rise of Virtual Reality](http://www.theverge.com/a/virtual-reality/))]
+
+---
+
+# 1985: VR at NASA:
+
+<div class="videoWrapper">
+<iframe width="480" height="360" src="https://www.youtube.com/embed/NAuytnYU6JQ?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+## The Legible City. Shaw, Jeffrey, 1988. 
+
+<iframe width="720" height="540" src="https://www.youtube.com/embed/61l7Y4MS4aU?rel=0" frameborder="0" allowfullscreen></iframe>
+
+[See documentation here](http://www.jeffrey-shaw.net/html_main/show_work.php?record_id=83)
+
+- Conceived as a break from cinema, in which the image is directed by the viewer (cyclist). 
+- Drift / derive
+
+---
+
+# Massive VR hype in the 90's
+
+1991: ABC Primetime covers the VR scene (from [vrtifacts.com](http://vrtifacts.com/virtual-reality-1991-many-believe-it-will-revolutionize-the-way-we-live/))
+
+<iframe width="480" height="360" src="https://www.youtube.com/embed/c5ZnWNilMxw?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
+
+# 1995: Char Davies' [Osmose](http://www.immersence.com/osmose/):
+
+.pull-right[![Osmose](http://www.immersence.com/centralizedImages/osmose/Osm_Tree_600@2x.jpg)]
+
+- Char Davies was painter, became co-founder of SoftImage (-> Autodesk)
+- Wanted to **demonstrate medium's potential**, and "aspects related to the medium of "virtual reality" that are often overlooked"
+
+> The author calls for a subversion of conventional approaches to VR on the basis that they reinforce an outdated dualist (and masculine) worldview. She redefines immersive virtual space as a medium for de-habituating perception and re-sensitizing us to our own being in the world.
+
+- "Evoke rather than illustrate"; metaphors, aviod solid objects, use translucencies 
+- Parallels with deep-sea diving (floating, breathing to rise/fall, leaning to move)
+- [Quote](http://www.goodreads.com/work/quotes/2353571-la-po-tique-de-l-espace) from [Bachelard's Poetics of Space](http://www.goodreads.com/book/show/13269.The_Poetics_of_Space)
+
+
+---
+
+<div class="videoWrapper">
+<iframe width="640" height="480" src="http://www.youtube.com/embed/54O4VP3tCoY?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+![@9.23: scene map](osmose_scene_map.png)
+
+- Transition between "worlds" (scenes?) is spatial dissolve, not just temporal. *Osmosis.* 
+- Deep underground see code (including real-time sensor data), above cloud see poetry
+
+---
+
+# 1995: The death of VR
+
+Nintendo releases [VirtualBoy](https://en.wikipedia.org/wiki/Virtual_Boy) for US$ 180, and discontinues it just six months later. [("Nail in the coffin for 90's VR")](http://vrtifacts.com/virtual-boy-another-perspective/)
+
+**What went wrong?**
+
+- Inadequate Image Resolution
+- "Motion to photon latency" too high
+- Limited Position Tracking
+- Cumbersome Equipment
+- Lack of Interpretation of Body Movements
+- Simulation Sickness
+- Cost
+- Slow computers
+- Poor software design
+- Lack of data/understanding the human body, lack of haptics research etc.
+- Premature launches & inflated expectations
+- Charlatans
+- Concern about liability (user accidents)
+- Single-user problem
+- No consumer "killer app"
+
+
+---
+
+# VR went to the CAVE
+
+.pull-right[![cave](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/CAVE_Crayoland.jpg/440px-CAVE_Crayoland.jpg)]
+
+For the next two decades, VR develops in research labs, was steadily successful and continued to grow in big-budget industrial, science & health research, as well as military training.
+
+> "VR was used to visualize oil fields and to visualize machinery to extract oil more efficiently from old fields. Similar things happened in medicine. We understand more about large molecules, we understand more about how the body heals from surgery through VR simulations." - [Whatever happened to VR -- interview with Jaron Lainer (2007)](http://www.10zenmonkeys.com/2007/03/09/whatever-happened-to-virtual-reality/)
+
+---
+
+# VR went to the garage
+
+2009: [A teenage Palmer Luckey announces on a BBS post his home-made Oculus "Rift" HMD.](http://www.mtbs3d.com/phpbb/viewtopic.php?f=120&t=14777)
+
+2011: Now 18, Palmer hacks together a rough prototype in his parents’ garage in Long Beach, California.
+
+2012: John Carmack (lead programmer of Doom, Quake, and many other pioneering 3D games) introduces a duct taped head-mounted display based on Luckey's prototype at the Electronic Entertainment Expo. Palmer's company, Oculus VR, launches [a Kickstarter campaign](https://www.kickstarter.com/projects/1523379957/oculus-rift-step-into-the-game) to fund the development of the Rift. It is phenomenally successful,  raising US$2.4 million for the development of the Rift. 
+
+2013: First Oculus Rift developer kit (DK1) ships, for $300. Developer kits are released to give developers a chance to develop content in time for the Rift's release; these have also been purchased by many virtual reality enthusiasts for general usage.
+
+2014: Second Oculus Rift developer kit (DK2) ships, for $350. More than 100,000 DK2's have shipped by 2015. Oculus VR is acquired by Facebook for $2 billion
+
+2016: First consumer version (CV1) shipping, $600.
+
+---
+
+
+# 2016 "the year of VR"
+
+- Sony, Facebook, Google, Microsoft, Samsung, Valve, nVidia, Apple and many other large corporations are now gambling on VR's success. 
+- Why now?
+	- Technological feasibility & affordability
+		- Advances in small displays (thanks to cellphone industry)
+		- Advances in 3D graphics (thanks to gaming industry)
+	- Gaming industry crisis? Looking for the next big thing?
+- Expect a slow rise/uptake. Still not exactly cheap!
+.pull-right[![hype cycle](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Gartner_Hype_Cycle.svg/559px-Gartner_Hype_Cycle.svg.png)]
+
+- Are we in the beginning of the plateau of productivity, or in another hype cycle?
+
+.footnote[[For more on hype cycles](http://www.gartner.com/newsroom/id/2575515) -- Gartner in 2013 placed the plateau for VR in the 5-10 year range.]
+
+---
+
+# Current Hardware
+
+- Desktop-based: Oculus Rift, HTC Vive, (OSVR, etc.)
+- Console-based: Sony PlayStation VR
+- Cellphone-based: Samsung Gear VR, Google Cardboard, etc.
+	- no tracking, lower FPS, but $99 or less + phone
+
+[![https://www.oculus.com](http://www.hollywoodreporter.com/sites/default/files/imagecache/675x380/2014/09/oculus_crescentbay_0.jpg)](https://www.oculus.com)
+
+(Future hardware likely to move toward AR -- Tango, Hololens, Magic Leap...)
+
+---
+
+### Rift | Vive + PC specs
+
+- **Resolution**: 2160 x 1200
+- **Refresh rate**: 90 fps
+- **Field of view**: 110 degrees
+
+-----
+
+- **Tracking area**: 5 x 11 feet | 15 x 15 feet
+- **Video**: no input | front-facing camera
+- **Audio**: mic + headphones | mic + headphone jack
+- **Price**: $600 (without Touch) | $800 (with controllers)
+
+-----
+
+But that price doesn't include the PC... add another $2000 or so for:
+
+- **GPU:** NVIDIA GTX 970 / AMD R9 290 equivalent or greater
+- **CPU:** Intel i5-4590 / AMD FX 8350 equivalent or greater
+- **Memory:** 8GB+ RAM
+- **Video Output:** HDMI 1.4 or DisplayPort 1.2 or newer
+- **USB:** 3x USB 3.0 ports plus 1x USB 2.0 port
+- **OS:** Windows 7 SP1 64 bit or newer
+
+
+---
+
+class: center, middle
+
+> Palmer Luckey, Oculus CEO: "I think it will be VR content and software that will drive the industry long term". 
+
+> Richard Marks, Sony Magic Lab: "Wild West... there are no established genres. You don't get that opportunity very often." 
+
+> Michael Abrash, Chief Scientist, Oculus: "The future of VR lies in the unique experiences that get created in software, and if I knew what those would be, even in broad outline, I would be very happy." 
+
+---
+
+
+class: center, middle
+
+<iframe src="https://player.vimeo.com/video/55906895" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+The train moving directly towards the camera, shot in 1895, was said to have terrified spectators at the first screening, a claim that has been called an urban legend. What most film histories leave out is that the Lumière Brothers were trying to achieve a 3D image even prior to this first-ever public exhibition of motion pictures, and later re-shot the film in stereoscopic 3D, first screened in 1935. Given the contradictory accounts that plague early cinema and pre-cinema accounts, it's plausible that early cinema historians conflated the audience reactions of the 2D and 3D screenings of L'Arrivée d'un Train.
+
+---
+
+# 360 Video (not VR? not cinema?)
+
+- Forget what you knew about cinema 
+	- frame, focus, attention
+	- cuts & editing in general 
+- "inside-out" 360 
+	- Google Jump, JauntVR, VRSE, **many many** others -- a huge boom in 360 cameras right now
+	- [Various contributors (open source). Making 360. Github, ongoing.](http://making360.com)
+	- where does the crew go?
+	- actors are unaware of viewer
+	- stitching & stereo artifacts
+	- doesn't allow head movement (but light-field cameras like [Lytro Immerge](https://www.lytro.com/immerge))?
+	- till, massive interest & investment!
+
+---
+
+# "Outside-in" filming, point-clouds
+
+- markerless mocap / RGB-D cameras
+- embed in CG world
+
+![point clouds](http://57.media.tumblr.com/d9412a062bcf9e58847ffb2db7990839/tumblr_nzhs49wQUy1qamt2wo1_500.gif)
+
+---
+
+class: center, middle
+
+<div class="videoWrapper">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/g8m_LY_HcCo?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+class: center, middle
+
+# Think beyond cinema/game...
+
+---
+
+# [Birdly](http://birdly.zhdk.ch/about/)
+
+<div class="videoWrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JApQBIsCK6c" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+# [Tiltbrush](http://www.tiltbrush.com)
+
+<div class="videoWrapper">
+<iframe width="640" height="360" src="https://www.youtube.com/embed/TckqNdrdbgk?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+# The Machine to be Another
+
+[Be Another Lab](http://www.themachinetobeanother.org)
+
+<div class="videoWrapper">
+<iframe src="https://player.vimeo.com/video/84150219" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+---
+
+# In the eyes of the animal
+
+[In the Eyes of the Animal](http://www.creativeapplications.net/maxmsp/in-the-eyes-of-the-animal-mlf-virtualise-a-forest-through-the-eyes-of-its-creatures/)
+
+<div class="videoWrapper">
+<iframe src="https://player.vimeo.com/video/140057053" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+---
+
+# Social
+
+- Is this why Facebook bought Oculus?
+- Several VR SecondLifes (e.g. AltSpace)
+- VR bangs, VR arcades
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/b871kq_tQKM?rel=0" frameborder="0" allowfullscreen></iframe>
+
+- [Ethics](http://journal.frontiersin.org/article/10.3389/frobt.2016.00003/full)
+
+---
+
+class: center, middle
+
+# VR Worldmaking
+
+---
+
+# VR worldmaking software
+
+- **Sandbox platforms** with existing VR support 
+	- such as Minecraft, SecondLife (see [this collection of Rift-oriented examples](http://secondlife.com/destinations/oculus))
+	- limited
+- **Browser-based**: [MozVR](http://mozvr.com) for Firefox or [WebVR](http://webvr.info) for Firefox & Chrome
+	- combine with browser-based WebGL, e.g. using Three.js
+	- performance limitations
+- **Game engines**: Unity, Unreal, etc. 
+	- Large VR community in games, gentle learning curve, lots built-in. 
+- **Visual programming**: Max/MSP/Jitter, Touch Designer, VVVV, etc.
+	- Also gentle learning curve, less built-in (that's a feature!)
+- **C++ frameworks**: Cinder, OpenFrameworks, etc.
+	- Building upon Oculus / OpenVR etc. C/C++ SDKs
+	- See also scientific/engineering frameworks, e.g. VRUI
+
+---
+
+# Unreal
+
+Unreal has long been used in many "AAA" (large-scale/high-production value/high-budget) games, but was open-sourced with an amenable license in early 2015; and now has built-in support for VR and the Oculus Rift.
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/67NToSkW2vs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+Note: A lot of visual effects need to be turned off / turned down for VR. 
+
+---
+
+# Max/MSP/Jitter
+
+*A full kit of creative tools for sound, graphics, music and interactivity in a visual environment. Max is one of the most widely-used platforms for computer music and interactive/digital media art. It originated in work at IRCAM, a computer music laboratory in Paris, over 20 years ago.*
+
+In general, what Unreal gives you automatically, in Max you often have to build yourself. But Max will let you do things experimentally, particularly mathematically and generatively, that are much more difficult in Unreal.
+
+-----
+
+[https://github.com/worldmaking/Max_Worldmaking_Package](https://github.com/worldmaking/Max_Worldmaking_Package) - a package for Max/MSP/Jitter to support computational worldmaking. 
+
+Supports Oculus Rift and HTC Vive. Just drop it into Documents/Max 7/Packages & restart Max :-)
+
+---
+
+class: center, middle
+
+# VR design: guided by the body
+
+---
+
+# Simulator sickness
+
+- Known since the earliest flight simulators of the 1950's, but is still not fully understood. 
+	- Oculomotor: Headaches, fatigue, eye strain, can't focus
+	- Nausea: Sweating, salivation, can't concentrate, burping/stomach awareness
+	- Disorientation: Blurry vision, dizziness (with eyes open or closed), vertigo (24%)
+- **Cue Conflict Theory** -- what some parts of the visual system are reporting does not match what other sensory components. Probably not the only cause.
+- Affects different people in different ways. 
+	- Younger less susceptible
+	- Decreases with exposure
+	- Around 5% will never overcome it
+
+---
+
+# Avoiding sim sickness
+
+**Maintain low latency, high frame-rate, and tracking**
+
+- 90 fps, < 20ms motion-to-photon latency, high accuracy tracking
+- Reliably: no dropped frames, no tracking dropouts, etc.
+- Demanding on hardware -> simplified content
+- (Also low persistence display helps)
+
+**Rendering gotchas**
+
+- No deferred shading (latency)
+- No motion blur, DOF (takes away viewer control)
+- No image-based FX (breaks S3D)
+- Beware of particle-based effects (look flat)
+
+**Avoid overstimulation**
+
+- Bright lights/heavy contrast
+- Flickering & flashing (esp. in peripheral)
+- Avoid large untextured spaces (no depth cues) 
+- Also avoid high-frequency tiling textures, overly repetitive shapes
+
+---
+
+# Avoiding sim sickness
+
+**Never take away head tracking**
+
+- No 'cutscenes' / 'cinematics' 
+- HUDs and overlays need to be in-world
+- Don't ever take away user's control of the camera
+- (ideally, don't move it)
+- Fade out instead of stopping camera to avoid sticking head through walls
+
+
+---
+
+# Avoiding sim sickness
+
+**Especially avoid accelerations (and decelerations, and curves...)**
+
+- Vestibular conflict. Rollercoasters!
+- Start & stop suddenly is better, no smoothing!
+- No head-bob. Avoid stairs. Avoid strafe.
+- Better still, don't move
+- For seated-VR, even looking behind you is problematic: simple yaw rotation is "VR poison" - John Carmack
+
+### Hence, the locomotion problem
+
+- [Some say locomotion is the biggest problem for VR.](http://fatedblog.com/2015/08/06/locomotion-simulation-sickness-and-the-fear-of-vr/)
+- Most of us don't have treadmills (or spherical equivalents)
+- Any movements should be much slower than we're used to in games (~1.4 meters per second)
+- Even room-scale VR is a fairly small space
+- Zoom scopes don't work in first-person
+- i.e. **VR is not suited to first-person gaming tropes**
+
+Some "solutions", mostly immersion-breaking
+
+---
+
+**Anchoring**: a perceptual frame of reference
+- cockpit-based simulations can handle much greater accelerations
+- semi-transparent mesh, only while moving
+- a body, even a nose (but issues of mismatch...)
+	
+![nose](http://www.wired.com/wp-content/uploads/2015/04/vrnosetuscany.gif)
+
+.footnote[[Research at Purdue suggests that overlaying the peripheral image of a nose helps reduce simulator sickness by 13.5%](http://www.wired.com/2015/04/reduce-vr-sickness-just-add-virtual-nose/)]
+
+---
+
+'Limbo' effect: abstract away world content when moving camera
+
+![colosse](http://uploadvr.com/wp-content/uploads/2015/09/limboBeachSnippet13.gif)
+
+---
+
+Jumping between angles
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/Gp0eMNSVtZA?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
+
+Point to a place on the floor then teleport
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/nmR8iqXSspA?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
+
+Reduce FOV while moving (works by reducing *vection*)
+
+![img](http://cdn.uploadvr.com/wp-content/uploads/2016/06/FOVRestrictor.jpg)
+
+---
+
+Portal variant
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/gbp7xX9QPOc?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
+
+More
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/p0YxzgQG2-E?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
+
+# Uncanny valleys
+
+- Scale should be accurate, or wildly different
+- NPR etc. can have stronger presence
+- Characters not looking at you / not responding to you properly
+- Sticking your head through walls etc.
+- Avatar mismatch. Abstract trumps real - [Valve advice for VR](http://www.gamasutra.com/view/news/250362/Valve_shares_advice_on_designing_great_VR_game_interactions.php)
+
+---
+
+# Use near-space
+
+- 3D depth perception is extremely powerful < 3m. 
+- With hand-tracking, the 1m radius becomes even more important
+- Beyond 10m, stereopsis ceases to be the most important depth cue.
+- Beyond 60m there is no difference at all
+- Fade out < 10cm, hard to focus, psychological effects
+
+# Use spatial audio!
+
+- Headphone audio should use head orientation, ideally HRTF
+- Located sounds should get significantly louder when you lean toward them closely, etc.
+
+---
+
+# UI should be located in-world
+
+- on walls 
+- on objects, on screens in world 
+- or cockpit, 
+- or floating over its subject 
+
+.pull-right[![walls](https://twentymilliseconds.com/screenshots/ui-walls-example.png)]
+.pull-right[![screens](https://twentymilliseconds.com/screenshots/vr_typing_hud.png)]
+.pull-right[![coins](https://twentymilliseconds.com/screenshots/lucky/coins-ui.gif)]
+
+---
+
+# Touch
+
+Even with tracked hand-held devices, like those provided with VIVE, or the Oculus Touch, or tracking via Leap Motion or the Kinect, there is still no haptic feedback -- no sense of touch. 
+
+- Gloves?
+- Acoustic (ultrasonic) haptics?
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/NSCZxsd-9hA?rel=0" frameborder="0" allowfullscreen></iframe>
+
+---
+
+# Authoring within VR?
+
+- Impact of switching contexts between HMD and coding-at-the-desk
+- Can't find the keyboard... time to go beyond text?
+
+---
+
+<div class="videoWrapper">
+<iframe src="https://player.vimeo.com/video/150928998" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+---
+
+<div class="videoWrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pnEdY2Qttvw" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+<div class="videoWrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JKO9fEjNiio" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+# The message of the medium?
+
+"A new medium can suggest a multitude of approaches. In 1929, Dziga Vertov's *[The Man with the Movie Camera](https://www.youtube.com/watch?v=z97Pa0ICpn8)* catalogued possibilities for the evolution of film. From narrative structures to special effects, it shows *what cinema could have become*. Virtual reality occupies a similar historical moment--it is unformed and hence its possibilities seem unconstrained." 
+
+"Although the artistic community has often been excluded from the development of new technologies, this situation is changing. Artists no longer sit on the sidelines eventually to become grateful users of borrowed tools but have become active in development, creating a disturbance in the field with new contingencies... A new medium like Virtual Reality challenges traditional conventions not because the participant wears a helmet or glove but because it suggests new relationships between the viewer and the viewed... Unfortunately, as the medium of virtual environments becomes more and more defined, different approaches will be ignored, abandoned, or forgotten as the medium coalesces into a mature form."
+> *Douglas MacLeod, Director of the Banff Art and Virtual Environments Project*, in the preface of [Moser, Mary Anne, and Douglas MacLeod. Immersed in technology: art and virtual environments. MIT Press, 1996.](https://mitpress.mit.edu/books/immersed-technology), emphasis added.
+
+---
+
+[Zimmerman, Eric, and Heather Chaplin. "Manifesto for a Ludic Century" (2013)](http://kotaku.com/manifesto-the-21st-century-will-be-defined-by-games-1275355204)
+
+> The last century's media was based on information communication: linear, often unidirectional; creating bureaucratic systems. This century's media is non-linear, systemic, modular, participatory, customizable, playful. Environmental: immersive, inhabitable, explorable. Complex systems thinking. 
+
+> It is not enough to merely be a systems-literate person; to understand systems in an analytic sense. We also must learn to be playful in them. A playful system is a human system, a social system rife with contradictions and with possibility.
+
+---
+
+class: center, middle
+
+# Artificial Nature / Endless Current
+
+---
+
+
+</textarea>
+<script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+</script>
+<script>
+var slideshow = remark.create({
+	//ratio: '16:9',
+	ratio: '4:3',
+	
+	// Navigation options
+  	navigation: {
+    // Enable or disable navigating using scroll
+    // Default: true
+    // Alternatives: false
+    scroll: false,
+
+    // Enable or disable navigation using touch
+    // Default: true
+    // Alternatives: false
+    touch: true,
+
+    // Enable or disable navigation using click
+    // Default: false
+    // Alternatives: true
+    click: false
+  },
+
+});
+</script>
+</body>
+</html>
