@@ -1,0 +1,100 @@
+[
+	{
+		"name": "Kim, Seunghun",
+		"role": "Dissertation supervisor",
+		"award": "Ph.D.",
+		"title": "Sonic Control of Audio Feedback and its Artistic Uses according to Environmental Openness",
+		"status": "filed",
+		"date": "2015-11", 
+		"section": "Graduate School of Culture Technology",
+		"institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+		"where": "Daejeon, Republic of Korea",
+		"now": "Hired by Samsung SA, Korea"
+	},
+	{
+		"name": "Lee, Jeong-seob",
+		"role": "Dissertation co-supervisor",
+		"award": "Ph.D.",
+		"title": "Performative Gesture and Natural Interaction",
+		"status": "ongoing",
+		"section": "Graduate School of Culture Technology",
+		"institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+		"where": "Daejeon, Republic of Korea"
+	},	
+	{
+		"name": "Bahng, Sojung",
+		"role": "Thesis supervisor, primary advisor",
+		"award": "Master of Science",
+		"title": "Generative Spatial Montage with Multi-Layered Screens: A new Non-Linear Cinema and Media Art",
+		"date": "2014-12",
+		"status": "filed",
+		"section": "Graduate School of Culture Technology",
+		"institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+		"where": "Daejeon, Republic of Korea"
+	},
+	{
+		"name": "Jang, Sunga",
+		"role": "Thesis supervisor, primary advisor",
+		"award": "Master of Science",
+		"title": "Augmenting Gestural Strokes with Dynamics-Driven Simulations for Immersive Freeform 3D Modeling",
+		"date": "2015-06",
+		"status": "filed",
+		"section": "Graduate School of Culture Technology",
+		"institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+		"where": "Daejeon, Republic of Korea"
+	},	
+	{
+		"name": "Jeon, Jimin",
+		"role": "Thesis supervisor",
+		"award": "Master of Science",
+		"title": "TAPIR Sound Tag: Development of an Automatic Tagging System Based on Inaudible High-frequency Sound and Its Practical Applications",
+		"date": "2014-06",
+		"status": "filed",
+		"section": "Graduate School of Culture Technology",
+		"institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+		"where": "Daejeon, Republic of Korea"
+	},
+	{
+		"name": "Hong, Daeryong",
+		"role": "Thesis co-supervisor",
+		"award": "Master of Science",
+		"title": "The Laptop Computer as a Musical Instrument using Audio Feedback",
+		"date": "2014-01",
+		"status": "filed",
+		"section": "Graduate School of Culture Technology",
+		"institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+		"where": "Daejeon, Republic of Korea"
+	},
+	{
+		"name": "Hutchings, Patrick",
+		"role": "Thesis co-supervisor",
+		"award": "Master of Science",
+		"title": "Adaptive Music for Video Games",
+		"status": "transferred",
+		"section": "Graduate School of Culture Technology",
+		"institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+		"where": "Daejeon, Republic of Korea"
+	},
+	{
+		"name": "Wu, Jennifer",
+		"role": "Co-supervisor",
+		"award": "BA",
+		"status": "filed",
+		"date": "2016",
+		"section": "Digital Media",
+		"institution": "York University",
+		"where": "Toronto, Canada",
+		"now": "Accepted to Design and Technology MFA, Parsons School of Design"
+	},
+	{
+		"name": "Li, Luke",
+		"role": "Co-supervisor",
+		"award": "BA",
+		"status": "filed",
+		"date": "2016",
+		"section": "Digital Media",
+		"institution": "York University",
+		"where": "Toronto, Canada",
+		"now": "Accepted to Interactive Arts and Technology MA, Simon Fraser University"
+	}
+]

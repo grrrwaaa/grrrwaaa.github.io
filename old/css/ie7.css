@@ -1,0 +1,4 @@
+/* make image resizing better on IE 7 */
+img {
+	-ms-interpolation-mode: bicubic;
+}

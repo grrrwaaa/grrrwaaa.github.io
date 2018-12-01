@@ -1,0 +1,869 @@
+[
+      {
+        "artwork": "Inhabitat",
+        "media": "Sand-sculpture augmented reality, head-mounted virtual reality, large-scale projection",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "Interactive Media Theatre",
+            "where": "MOXI Museum of Exploration of Innovation, Santa Barbara, USA",
+            "date": "2017-08-10",
+            "date_end": "2018-01-08",
+            "how": "Commissioned",
+            "scope": "International"
+          }
+        ]
+      },
+      {
+        "artwork": "Portrait",
+        "media": "LED display with Korean traditional paper, Raspberry Pi",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "Currents New Media Festival",
+            "where": "El Museo Cultural, Santa Fe, USA",
+            "date": "2017-06-09",
+            "date_end": "2017-06-25",
+            "how": "Juried",
+            "scope": "International"
+          },
+          {
+            "title": "First Thursday Festival",
+            "where": "SBCAST, Santa Barbara, USA",
+            "date": "2017-08-03",
+            "how": "Curated",
+            "scope": "Local"
+          }
+        ]
+      },
+     {
+        "artwork": "Archipelago",
+        "media": "Sand-sculpture with multiple projections and shadow interactions",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "Capitaine Futur",
+            "where": "La Gat Lyrique, Paris, France",
+            "date": "2014-10-08",
+            "date_end": "2015-02-08",
+            "how": "Curated",
+            "scope": "International"
+          },
+          {
+            "title": "Seoul Sangsangryok Baljeonso (Imagination Powerhouse)",
+            "where": "City Hall, Seoul, Korea",
+            "date": "2014-10-01",
+            "date_end": "2014-10-21",
+            "how": "Juried competition",
+            "scope": "International",
+            "annote": "1st prize (~$30,000)"
+          },
+          {
+            "title": "Seoul Sangsangryok Baljeonso (Imagination Powerhouse)",
+            "where": "City Hall, Seoul, Korea",
+            "date": "2015-02-16",
+            "date_end": "2015-02-27",
+            "how": "Invited re-exhibit",
+            "scope": "International"
+          },
+          {
+            "title": "Systems and Subversions",
+            "where": "IDEA Space, Edith Kinney Gaylord Cornerstone Arts Center, Colorado Springs, USA",
+            "date": "2013-10-28",
+            "date_end": "2013-11-5",
+            "how": "Curated",
+            "scope": "International"
+          }
+        ]
+      },
+      {
+        "artwork": "Endless Current",
+        "media": "Multi-projector interactive installation or personal head-mounted display",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "SV+VS (Sonifying Visuals+Visualizing Sound)",
+            "where": "Gallery MUN, Dongdaemun Design Plaza, Seoul, Korea",
+            "date": " 2016-08-20",
+            "date_end": "2016-09-18",
+            "how": "Curated",
+            "scope": "International"
+          },
+          {
+            "title": "Currents New Media Festival",
+            "where": "El Museo Cultural, and also the Digital Dome at the Institute of American Indian Arts, Santa Fe, USA",
+            "date": " 2016-06-10",
+            "date_end": "2016-06-26",
+            "how": "Juried",
+            "scope": "International"
+          },
+          {
+            "title": "IEEE VIS Arts Program",
+            "where": "LeRoy Neiman Center, School of the Art Institute of Chicago, USA",
+            "date": " 2015-10-16",
+            "date_end": "2015-10-30",
+            "how": "Juried",
+            "scope": "International"
+          },
+          {
+            "title": "Artience Project Daejeon",
+            "where": "Korea Research Institute of Standards and Science, Daejeon, Korea",
+            "date": " 2014-08-23",
+            "date_end": "2014-09-02",
+            "how": "Curated",
+            "scope": "National"
+          },
+          {
+            "title": "Life is very Beautiful",
+            "where": "Yeulmaru Exhibition Hall, Yeosu, Korea",
+            "date": "2014-02-18",
+            "date_end": "2014-04-06",
+            "how": "Curated",
+            "where_url": "http://www.yeulmaru.org/home2/main.php",
+            "scope": "National"
+          },
+          {
+            "title": "Life is very Beautiful",
+            "where": "Space-K Gallery, KI Building, KAIST, Daejeon, Korea",
+            "date": "2013-10-10",
+            "date_end": "2013-12-6",
+            "how": "Curated",
+            "scope": "National",
+            "url": "http://museum.kaist.ac.kr/wp/?page_id:1123",
+            "where_url": "http://kis.kaist.ac.kr/index.php?siteurl:/01/05.php"
+          },
+          {
+            "title": "Korea Electronics Show 2013",
+            "where": "KINTEX Convention Center, Ilsan, Korea",
+            "date": "2013-10-07",
+            "date_end": "2013-10-10",
+            "how": "Commissioned",
+            "scope": "National",
+            "notes": "Using Oculus Rift",
+            "event_url": "http://www.kes.org/index.do"
+          }
+        ]
+      },
+      {
+        "artwork": "Chronoform Studies of Artificial Life",
+        "media": "Mixed Media: 3D Printing, Lenticular Print, Rendered Image",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "Media + Life: Sensorial Collaboration",
+            "where": "College of Art, Tokyo Polytechnic University, Tokyo, Japan",
+            "date": "2013-02-04",
+            "date_end": "2013-02-07",
+            "how": "Invited",
+            "scope": "International"
+          }
+        ]
+      },
+      {
+        "artwork": "Flux",
+        "media": "Multi-projector interactive installation",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "7th Digital Art Festival Taipei: Artificial Nature",
+            "where": "Songshan Cultural and Creative Park, Digital Art Center, Taipei, Taiwan",
+            "date": "2012-11-06",
+            "date_end": "2012-11-25",
+            "how": "Curated",
+            "scope": "International"
+          },
+          {
+            "title": "Microwave International New Media Festival",
+            "where": "City Hall, Hong Kong",
+            "date": "2012-11-03",
+            "date_end": "2012-11-25",
+            "how": "Curated",
+            "scope": "International"
+          },
+          {
+            "title": "Project Daejeon Biennale 2012: Energy ()",
+            "where": "Daejon Museum of Art, Daejon, Korea",
+            "date": "2012-09-19",
+            "date_end": "2012-11-18",
+            "how": "Curated",
+            "scope": "International"
+          },
+          {
+            "title": "Bits & Pieces",
+            "where": "AlloSphere, California NanoSystems Institute, UCSB, USA",
+            "date": "2012-05-29",
+            "how": "Invited",
+            "scope": "Regional"
+          },
+          {
+            "title": "Collider 04: Spectacle",
+            "where": "Emily Davis Art Gallery, Myers School of Art, The University of Akron",
+            "date": "2012-03-19",
+            "date_end": "2012-04-13",
+            "how": "Curated",
+            "event_url": "http://c4.collider.co/kinect_cube/",
+            "scope": "National"
+          }
+        ]
+      },
+      {
+        "artwork": "Genetic Morphology Study",
+        "media": "Rendered Image",
+        "artist": "Haru Ji",
+        "events": [
+          {
+            "title": "Cross-Reality: Traversed & Encompassed Vision",
+            "where": "Arts & Information Center, College of Art, Tokyo Polytechnic University, Japan",
+            "date": "2012-02-20",
+            "date_end": "2012-02-22",
+            "how": "Invited"
+          }
+        ]
+      },
+      {
+        "artwork": "Time of Doubles",
+        "media": "Multi-projector interactive installation",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "Globale Renaissance 2.0 - Exo:Evolution",
+            "where": "Center for Art and Media (ZKM) Mediamuseum, Karlsruhe, Germany",
+            "date": "2015-10-30",
+            "date_end": "2016-02-28",
+            "how": "Curated",
+            "scope": "International",
+            "where_url": "http://on1.zkm.de/zkm/e/",
+            "event_url": "http://zkm.de/en/event/2015/10/globale-exo-evolution"
+          },
+          {
+            "title": "SIGGRAPH ASIA Art Gallery",
+            "where": "Hong Kong Exhibition and Conference Centre, Hong Kong SAR",
+            "date": "2011-02-13",
+            "date_end": "2011-02-15",
+            "how": "Juried",
+            "scope": "International",
+            "event_url": "http://www.siggraph.org/asia2011/"
+          },
+          {
+            "title": "Questionable Utility",
+            "where": "TransLAB, California NanoSystems Institute, Santa Barbara, USA",
+            "date": "2011-06-09",
+            "how": "Juried",
+            "scope": "Regional",
+            "event_url": "http://show.mat.ucsb.edu/"
+          },
+          {
+            "title": "Type:wall",
+            "where": "Seoul Olympic Museum of Art (SOMA), Korea",
+            "date": "2011-03-31",
+            "date_end": "2011-05-29",
+            "how": "Curated",
+            "scope": "National",
+            "where_url": "http://www.somamuseum.org/",
+            "event_url": "http://www.somamuseum.org/contents/display/past_view.asp?txtXHBT_SEQ_N:81&amp;txtPage:1&amp;txtSearch_XHBT_ST_D:&amp;txtSearch_XHBT_END_D:&amp;cbxSearch_Type:XHBT_NM&amp;txtSearch_Word:"
+          }
+        ]
+      },
+      {
+        "artwork": "City Life (도시 생명)",
+        "media": "Generative/narrative animation for media facade",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "Urban Organism: Triangle Screenscape",
+            "where": "Seoul Square media facade. Seoul, Korea",
+            "date": "2011-10-11",
+            "date_end": "2011-10-30",
+            "how": "Awarded",
+            "scope": "International"
+          }
+        ]
+      },
+      {
+        "artwork": "Alien-Field",
+        "media": "Generative video",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "Prologue/Prototype",
+            "where": "Gallery Sobab, Gyeonggi-Do, Korea",
+            "date": "2011-04-29",
+            "date_end": "2011-05-15",
+            "how": "Curated",
+            "scope": "National",
+            "event_url": "http://mast.mat.ucsb.edu/format.html"
+          }
+        ]
+      },
+      {
+        "artwork": "Fluid Space",
+        "media": "Multi-projector interactive installation",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "Collider 03: Transform",
+            "where": "Emily Davis Gallery, Akron Ohio, USA",
+            "date": "2011-03-22",
+            "date_end": "2011-04-16",
+            "how": "Curated",
+            "scope": "International",
+            "event_url": "http://www.colliderexhibitseries.com/"
+          },
+          {
+            "title": "Hyperbody ProtoSpace",
+            "where": "Technical University Delft, Holland",
+            "date": "2010-05-06",
+            "date_end": "2010-05-07",
+            "how": "Invited",
+            "scope": "International",
+            "where_url": "http://www.bk.tudelft.nl/live/pagina.jsp?id:022afd95-6275-4991-9060-02b2b2aefad3&amp;lang:en"
+          },
+          {
+            "title": "SIGGRAPH ASIA Art Gallery",
+            "where": "Yokohama Pacifico Convention Center, Yokohama, Japan",
+            "date": "2009-12-17",
+            "date_end": "2009-12-19",
+            "how": "Juried",
+            "scope": "International",
+            "event_url": "http://www.siggraph.org/asia2009/"
+          },
+          {
+            "title": "ThisAbility",
+            "where": "Central Academy of Fine Arts Art Museum (CAFA), Beijing, China",
+            "date": "2009-07",
+            "how": "Curated",
+            "scope": "International",
+            "where_url": "http://www.cafamuseum.org/en/"
+          },
+          {
+            "title": "Space Exploration Exhibition",
+            "where": "Chunjin Exhibition Center. Chunjin, China",
+            "date": "2009-07-25",
+            "date_end": "2009-07-28",
+            "how": "Commissioned"
+          },
+          {
+            "title": "A.L.I.C.E. MUSEUM",
+            "where": "Seoul Olympic Museum of Art (SOMA), Korea",
+            "date": "2009-05-01",
+            "date_end": "2009-06-21",
+            "how": "Juried",
+            "scope": "International",
+            "where_url": "http://www.somamuseum.or.kr/",
+            "event_url": "http://test.nabi.or.kr/site/project/2009/alicemuseum/main.html"
+          },
+          {
+            "title": "TransLAB",
+            "where": "University of California Santa Barbara, USA",
+            "date": "2009",
+            "date_end": "2010",
+            "how": "Periodic local installation",
+            "where_url": "http://translab.mat.ucsb.edu/"
+          },
+          {
+            "title": "AlloSphere",
+            "where": "California NanoSystems Institute, Santa Barbara, USA",
+            "date": "2009",
+            "date_end": "2010",
+            "how": "Periodic local installation",
+            "where_url": "http://www.allosphere.ucsb.edu/"
+          }
+        ]
+      },
+      {
+        "artwork": "Infinite Game",
+        "media": "Interactive multi-modal installation",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "MAST: The Future of Interactive Media",
+            "where": "Corwin Pavillion/MAT AlloSphere, University of California Santa Barbara, USA",
+            "date": "2009-01-29",
+            "date_end": "2009-01-30",
+            "how": "Juried",
+            "scope": "National"
+          },
+          {
+            "title": "Universal Electronic Art",
+            "where": "Seongnam Art Center, Seongnam, Korea",
+            "date": "2008-10",
+            "date_end": "2008-11",
+            "how": "Curated",
+            "scope": "International",
+            "event_url": "http://universalelectronicart.blogspot.com/"
+          },
+          {
+            "title": "ThisAbility vs. Disability",
+            "where": "Total Museum of Contemporary Art, Seoul, Korea",
+            "date": "2008-07-22",
+            "date_end": "2009-08-24",
+            "how": "Curated",
+            "scope": "International"
+          },
+          {
+            "title": "ASIAGRAPH",
+            "where": "Digital Gallery, Shanghai, China",
+            "date": "2008-06-27",
+            "date_end": "2008-07-01",
+            "how": "Invited",
+            "scope": "International",
+            "event_url": "http://www.asiagraph.org/"
+          },
+          {
+            "title": "AlloSphere",
+            "where": "California NanoSystems Institute, Santa Barbara, USA",
+            "date": "2009",
+            "how": "Periodic local installation",
+            "where_url": "http://www.allosphere.ucsb.edu/"
+          }
+        ]
+      },
+      {
+        "artwork": "AlloBrain",
+        "media": "Stereoscopic 3D/Ambisonic immersive environment based upon brain imaging (provided by Marcos Novak) and algorithmic behaviors",
+        "artist": "Marcos Novak, Graham Wakefield, Lance Putnam, John Thompson, Dan Overholt, and Wesley Smith",
+        "events": [
+          {
+            "title": "AlloSphere",
+            "where": "California Nano-Systems Institute, UCSB, USA",
+            "date": "2006",
+            "date_end": "present",
+            "how": "Commissioned",
+            "notes": "First presented at the ACM-Multimedia Conference, Santa Barbara, 2006"
+          },
+          {
+            "title": "Hyperbody ProtoSpace",
+            "where": "Technical University Delft, Holland",
+            "date": "2006",
+            "how": "Invited",
+            "scope": "International"
+          }
+        ]
+      },
+      {
+        "artwork": "Eternal Return",
+        "media": "Multi-projector generative installation",
+        "artist": "Artificial Nature: Haru (Hyunkyung) Ji and Graham Wakefield",
+        "events": [
+          {
+            "title": "Space Exploration Exhibition",
+            "where": "Chunjin Exhibition Center. Chunjin, China",
+            "date": "2009-07-25",
+            "date_end": "2009-07-28",
+            "how": "Commissioned"
+          }
+        ]
+      },
+      {
+        "artwork": "Makeshift",
+        "media": "Generative audiovisual composition",
+        "artist": "Graham Wakefield",
+        "events": [
+          {
+            "title": "Cross-Reality: Traversed & Encompassed Vision",
+            "where": "Arts & Information Center, College of Art, Tokyo Polytechnic University, Japan",
+            "date": "2012-02-20",
+            "date_end": "2012-02-22",
+            "how": "Curated",
+            "scope": "International"
+          },
+          {
+            "title": "Something You Don't Know",
+            "where": "California NanoSystems Institute, University of California Santa Barbara, USA",
+            "date": "2010-05-24",
+            "date_end": "2010-05-27",
+            "how": "Curated",
+            "scope": "Regional",
+            "event_url": "http://www.mat.ucsb.edu/show/2010/"
+          },
+          {
+            "title": "Machine Dreams",
+            "where": "Soongsil University Information Technology Gallery, Seoul, Korea",
+            "date": "2009-06-16",
+            "date_end": "2009-07-02",
+            "how": "Curated",
+            "scope": "International"
+          }
+        ]
+      },
+      {
+        "artwork": "t0 Coincident",
+        "media": "Generative computational composition",
+        "artist": "Graham Wakefield",
+        "events": [
+          {
+            "title": "SUB|SCAPE",
+            "where": "Gallery Loop, Seoul, Korea",
+            "date": "2009-06-19",
+            "how": "Curated",
+            "scope": "International"
+          },
+          {
+            "title": "TransLAB",
+            "where": "University of California Santa Barbara, USA",
+            "date": "2007",
+            "date_end": "2009",
+            "how": "Periodic local installation",
+            "scope": "National"
+          },
+          {
+            "title": "Primavera Exhibition",
+            "where": "College of Creative Studies Gallery, UCSB, USA",
+            "date": "2005-05",
+            "how": "Invited",
+            "scope": "Regional"
+          }
+        ]
+      },
+      {
+        "artwork": "Live Electronic Music",
+        "artist": "Graham Wakefield",
+        "events": [
+          {
+            "title": "Wordless Word",
+            "where": "Array Space, Toronto, Canada",
+            "date": "2016-05-10",
+            "how": "Curated",
+            "scope": "National"
+          }
+        ]
+      },
+      {
+        "artwork": "Live by the Code",
+        "artist": "Graham Wakefield and Woon Seung Yeo",
+        "events": [
+          {
+            "title": "AAPPAC (Association of Asia Pacific Performing Arts Centres) Conference",
+            "where": "Daejeon Culture & Arts Center, Daejeon, Korea",
+            "date": "2013-10-09",
+            "how": "Curated",
+            "scope": "International"
+          }
+        ]
+      },
+      {
+        "artwork": "Dupin's Spaceship",
+        "artist": "Graham Wakefield and Wesley Smith",
+        "events": [
+          {
+            "title": "DVD Content",
+            "where": "Computer Music Journal 35:4, MIT Press.",
+            "date": "2011",
+            "how": "Juried",
+            "scope": "International"
+          }
+        ]
+      },
+      {
+        "artwork": "Asterisk",
+        "artist": "Graham Wakefield and Asron McLaren",
+        "events": [
+          {
+            "title": "Media Arts & Technology Concert",
+            "where": "California Nanosystems Institute",
+            "date": "2009-06-08",
+            "how": "Juried",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "Squares for Round Holes",
+        "artist": "Graham Wakefield",
+        "events": [
+          {
+            "title": "creMATe (A without B)",
+            "where": "University of California Santa Barbara Music Bowl",
+            "date": "2008",
+            "how": "Juried",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "Time-Variant Audio-Visual Canvasses",
+        "artist": "Graham Wakefield",
+        "events": [
+          {
+            "title": "Art Bash",
+            "where": "Santa Barbara Museum of Art, Santa Barbara, USA",
+            "date": "2008-07",
+            "how": "Curated",
+            "scope": "Regional"
+          },
+          {
+            "title": "Sound Installations",
+            "where": "Goldsmiths College University of London",
+            "date": "2004-07",
+            "how": "Group show",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "Synecdoche",
+        "artist": "Wesley Smith and Graham Wakefield",
+        "events": [
+          {
+            "title": "UC Digital Art Network (UCDarNet) conference Epicenter",
+            "where": "University of California Riverside, USA",
+            "date": "2007",
+            "how": "Juried",
+            "scope": "Regional"
+          },
+          {
+            "where": "Lotte Lehman Concert Hall, University of California Santa Barbara",
+            "date": "2006",
+            "how": "Juried",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "Green Tara",
+        "artist": "Graham Wakefield",
+        "events": [
+          {
+            "where": "Geiringer Hall, University of California Santa Barbara",
+            "date": "2006",
+            "how": "Curated",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "Suntinethai",
+        "artist": "Haru Ji, Dan Overholt, Lance Putnam, and Graham Wakefield",
+        "events": [
+          {
+            "title": "Forum on Digital Transitions",
+            "where": "Corwin Pavilion, University of California Santa Barbara",
+            "date": "2006-04",
+            "how": "Commissioned",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "BitSignalFabric",
+        "artist": "MarkDavid Hosale, Haru Ji, Eric Newman, Dan Overholt, Lance Putnam, Ben Ritter, Wesley Smith, John Thompson, Graham Wakefield",
+        "events": [
+          {
+            "title": "UCIRA State of the Arts",
+            "where": "University of California Santa Barbara",
+            "date": "2006-05",
+            "how": "Juried",
+            "scope": "Local"
+          },
+          {
+            "title": "Music and the Moving Image",
+            "where": "University of California Santa Barbara",
+            "date": "2006-01",
+            "how": "Curated",
+            "scope": "Local"
+          },
+          {
+            "title": "Open Studios",
+            "where": "University of California Santa Barbara",
+            "date": "2005-04",
+            "how": "Invited",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "SeoNang",
+        "artist": "Eunsu Kang, Wesley Smith, Rama Holtzein, Graham Wakefield",
+        "events": [
+          {
+            "where": "Telematic: ArtspaceHue, Seoul, Korea, and DXARTS Art Studio, University of Washington, Seattle, USA",
+            "date": "2005",
+            "how": "Commissioned",
+            "scope": "International",
+            "url": "https://vimeo.com/26911445"
+          }
+        ]
+      },
+      {
+        "artwork": "Camino Outset",
+        "artist": "Graham Wakefield",
+        "events": [
+          {
+            "title": "CREATE",
+            "where": "Lotte Lehman Concert Hall, University of California Santa Barbara",
+            "date": "2006",
+            "how": "Juried",
+            "scope": "Local"
+          },
+          {
+            "where": "Goldsmiths College University of London",
+            "date": "2004",
+            "how": "Juried",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "Takeaway",
+        "artist": "Graham Wakefield",
+        "events": [
+          {
+            "title": "Cal Exchange Concert",
+            "where": "CalIT2, UC San Diego, USA",
+            "date": "2006",
+            "how": "Juried",
+            "scope": "Regional"
+          },
+          {
+            "title": "Cal Exchange Concert",
+            "where": "CalIT2, Stanford University, USA",
+            "date": "2006",
+            "how": "Juried",
+            "scope": "Regional"
+          },
+          {
+            "title": "Wave*Pulse",
+            "where": "Lotte Lehman Concert Hall, University of California Santa Barbara",
+            "date": "2005",
+            "how": "Juried",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "Cafiaspirina",
+        "artist": "Graham Wakefield",
+        "events": [
+          {
+            "title": "Newborn Creations",
+            "where": "Lotte Lehman Concert Hall, University of California Santa Barbara",
+            "date": "2005",
+            "how": "Juried",
+            "scope": "Local"
+          },
+          {
+            "title": "New Noise",
+            "where": "Goldsmiths College University of London",
+            "date": "2003",
+            "how": "Juried",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "Something Somewhere",
+        "artist": "Graham Wakefield",
+        "events": [
+          {
+            "where": "http://www.site-specific.net/somethingsomewhere",
+            "date": "1999",
+            "date_end": "2004",
+            "how": "Curated",
+            "scope": "Online"
+          }
+        ]
+      },
+      {
+        "artwork": "Nervoheal",
+        "artist": "Graham Wakefield",
+        "events": [
+          {
+            "where": "http://www.microsound.org/projects/project.php?name=Klanghausen",
+            "date": "2003-08",
+            "how": "Juried",
+            "scope": "Online"
+          }
+        ]
+      },
+      {
+        "artwork": "New Noise",
+        "artist": "Graham Wakefield, Joby Burgess (vibraphone)",
+        "events": [
+          {
+            "where": "Goldsmiths College University of London",
+            "date": "2003-03",
+            "how": "Invited",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "Electro-Acoustic Improvisation Ensemble",
+        "artist": "Florian Hollerweger, Dan Overholt, Lance Putnam, Graham Wakefield, Bo Bell",
+        "events": [
+          {
+            "where": "KCSB 91.9FM",
+            "date": "2006-08",
+            "how": "Invited",
+            "scope": "Local"
+          },
+          {
+            "title": "Primavera Festival",
+            "where": "College of Creative Studies Garden, University of California Santa Barbara",
+            "date": "2006-05",
+            "how": "Juried",
+            "scope": "Local"
+          },
+          {
+            "title": "Primavera Festival",
+            "where": "Music Atrium, University of California Santa Barbara",
+            "date": "2005-05",
+            "how": "Juried",
+            "scope": "Local"
+          },
+          {
+            "where": "KCSB 91.9FM",
+            "date": "2005-04",
+            "how": "Invited",
+            "scope": "Local"
+          },
+          {
+            "where": "Radio Helsinki 88.6MHz",
+            "date": "2005-04",
+            "how": "Invited",
+            "scope": "Local"
+          }
+        ]
+      },
+      {
+        "artwork": "Mambotaxi",
+        "artist": "Graham Wakefield, Philipe Boisier, Memo Dumay",
+        "events": [
+          {
+            "title": "Ese Olor (soundtrack, short film)",
+            "where": "Santiago, Chile",
+            "date": "1999",
+            "how": "Invited",
+            "scope": "Local"
+          },
+          {
+            "title": "Noche (soundtrack, short film)",
+            "where": "Santiago, Chile",
+            "date": "2000",
+            "how": "Invited",
+            "scope": "Local"
+          },
+          {
+            "title": "1er Acto (soundtrack, short film)",
+            "where": "Santiago, Chile",
+            "date": "2000",
+            "how": "Invited",
+            "scope": "Local"
+          },
+          {
+            "title": "Perdidos en el Espacio LP",
+            "where": "Universidad de Chile Records, Santiago, Chile",
+            "date": "2000",
+            "how": "Invited",
+            "scope": "Local"
+          },
+          {
+            "title": "Amanda & Simon EP",
+            "where": "Combo Discos, Santiago, Chile",
+            "date": "1999",
+            "how": "Invited",
+            "scope": "Local"
+          }
+        ]
+      }
+    ]

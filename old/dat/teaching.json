@@ -1,0 +1,197 @@
+[
+	{
+		"code": "DATT 3700",
+		"title": "Collaborative Project",
+		"term": "Fall/Winter",
+		"year": "2017",
+		"program": "Digital Media program",
+		"where": "York University, Canada"
+	},
+	{ 
+		"code": "FILM 6246",
+		"title": "Future Cinema II: Applied Theory",
+		"term": "Winter",
+		"year": "2017",
+		"program": "Cinema and Media Studies graduate program",
+		"where": "York University, Canada"
+	},
+	{ 
+		"code": "DATT 4950",
+		"title": "Artificial Life, Generative Art and Creative Code",
+		"term": "Fall",
+		"year": "2016",
+		"program": "Digital Media program",
+		"where": "York University, Canada"
+	},
+	{
+		"code": "FILM 5800",
+		"title": "Directed Reading",
+		"term": "Winter",
+		"year": "2016",
+		"program": "Cinema and Media Studies graduate program",
+		"where": "York University, Canada",
+		"summary": "Directed reading for research with graduate student Alison Humphrey (a Vanier scholar)."
+	},
+	{
+		"code": "VISA 6300",
+		"title": "Directed Reading",
+		"term": "Winter",
+		"year": "2016",
+		"program": "Communication & Culture graduate program",
+		"where": "York University, Canada",
+		"summary": "Directed reading for research with graduate student Alia Miroshnichenko."
+	},
+	{
+		"code": "FILM 5800",
+		"title": "Directed Reading",
+		"term": "Winter",
+		"year": "2016",
+		"program": "Cinema and Media Studies graduate program",
+		"where": "York University, Canada",
+		"summary": "Directed reading for research with graduate student Alison Humphrey (a Vanier scholar)."
+	},
+	{ 
+		"code": "FILM 6246",
+		"title": "Future Cinema II: Applied Theory",
+		"term": "Winter",
+		"year": "2016",
+		"program": "Cinema and Media Studies graduate program",
+		"where": "York University, Canada",
+		"summary": "This hands-on course gives you an opportunity to learn about new screen technologies, approaches and techniques in a lab environment, and participate in the evolution of emerging media. In 2015, the course will give you the opportunity to engage with wearable immersive VR technology (the Oculus Rift headset) on both practical and theoretical levels to understand, create and imagine new kinds of worlds. What does the imminent explosion of virtual reality (VR), soon to be available as consumer technology, mean for the future of cinema? Theories, methods, and unique modes of expression have yet to be established by the collision of gaming technology with cinema. As with any emerging medium, a willingness to break rules, abandon habits and re-learn is necessary."
+	},
+	{ 
+		"code": "DATT 4950",
+		"title": "Artificial Life, Generative Art and Creative Code",
+		"term": "Winter",
+		"year": "2016",
+		"program": "Digital Media undergraduate program",
+		"where": "York University, Canada",
+		"summary": "This course addresses computation as a creative medium from a biologically-inspired standpoint to develop artworks, adaptive media and simulations approaching the fascinating complexity of nature. Artists, composers, designers and architects have always drawn inspiration from nature, but until recently only rarely have they been able to leverage nature’s creative mechanisms. From its origins computing has also found biological inspiration in pattern formation, self-construction and reproduction, intelligence, autonomy and collective behaviour. Frameworks explored in the course include complex dynamical systems, fractals, cellular automata, agent-based systems, evolutionary and developmental programming, artificial chemistries and ecosystems. The course is focused on practice in the arts, interactive media, and design: interactive audiovisual applications are implemented both in-class and through student projects, and are critically examined by interweaving the history, theory and landmark works in the literature of generative art, evolutionary music and art, and process art, as well as artificial life, systems biology, and bioinformatics research, and philosophies of process, creativity, and the aesthetics of nature."
+	},
+	{ 
+		"code": "FILM 6246",
+		"title": "Future Cinema II: Applied Theory",
+		"term": "Winter",
+		"year": "2015",
+		"program": "Cinema and Media Studies graduate program",
+		"where": "York University, Canada",
+		"summary": "This hands-on course gives you an opportunity to learn about new screen technologies, approaches and techniques in a lab environment, and participate in the evolution of emerging media. In 2015, the course will give you the opportunity to engage with wearable immersive VR technology (the Oculus Rift headset) on both practical and theoretical levels to understand, create and imagine new kinds of worlds. What does the imminent explosion of virtual reality (VR), soon to be available as consumer technology, mean for the future of cinema? Theories, methods, and unique modes of expression have yet to be established by the collision of gaming technology with cinema. As with any emerging medium, a willingness to break rules, abandon habits and re-learn is necessary."
+	},
+	{ 
+		"code": "DATT 3935",
+		"title": "New Media Forms / The Database",
+		"term": "Winter",
+		"year": "2015",
+		"program": "Digital Media undergraduate program",
+		"where": "York University, Canada",
+		"summary": "Explores the database as a form in digital media and computational arts. As a navigable repository persistent information, the database intersects memory and network, knowledge and narrative, access and observation. As products of cultural activity, databases present new ways of understanding ourselves at massive scales. We will examine representative and indicative works in art and design, and artifacts of computational culture, to lay the groundwork for future exploration. Students will learn what a database is, how it is constructed, how it is accessed through the web, and how it may be mapped and envisioned for effective dissemination."
+	},
+	
+	
+	{ 
+		"code": "GCT 753",
+		"title": "Topics in Computational Design: Artificial Natures",
+		"term": "Winter",
+		"year": "2014",
+		"program": "Graduate School of Culture Technology",
+		"where": "Korea Advanced Institute of Science and Technology (KAIST), Republic of Korea",
+		"summary": "How can we create cultural artifacts (art, architecture, design, service) that are as rich, adaptive, and fascinating as nature? Media computation is often presented in terms of isolated and narrow problem-solving tasks, but the culture technology of tomorrow is increasingly connected, persistent, interactive, and open-ended. How can we create media systems that respond continuously and creatively to an ever-changing environment? From its origins computing has been inspired by nature, including aspects of intelligence, pattern formation, self-construction and reproduction, autonomy and collective behavior. This course introduces the key conceptual frameworks and techniques of bio-inspired computation and their applications in artifacts of cultural technology, particularly for interactive and generative media arts. The course however most strongly emphasizes practice: during the course, creative applications are examined and implemented in interactive audiovisual media. The aim is not only to develop understanding and expertise, but also to look ahead toward the artificial/natural/cultural environments of tomorrow."
+	},
+	{ 
+		"code": "GCT 501",
+		"title": "Introduction to Culture Technology",
+		"term": "Winter",
+		"year": "2014",
+		"program": "Graduate School of Culture Technology",
+		"where": "Korea Advanced Institute of Science and Technology (KAIST), Republic of Korea",
+		"summary": "The goal of this course is to develop solid grounding in the many diverse yet vital threads running through the mutual coevolution of culture and technology, both historical and contemporary, both practical and theoretical. The first component of the course will emphasize significant milestones in the history and development of culture technology through individual deep reading, group discussion and follow-up research. The second component will organize students into small teams, building research skills through the conceptualization, development, incrementally refined presentation of a proposed project."
+	},
+	{ 
+		"code": "GCT 633",
+		"title": "Audio and Multimedia Programming",
+		"term": "Fall",
+		"year": "2013",
+		"program": "Graduate School of Culture Technology",
+		"where": "Korea Advanced Institute of Science and Technology (KAIST), Republic of Korea",
+		"summary": "This course explores the joy of writing software for audio and media processing, including some of the well-established (and some of the not so well-established) techniques, how to overcome the many challenges it poses, and what potentials for novel research can be encountered. At the same time, the course asks: what does programming for perceptual media imply for creativity, art, design and culture? Historic disciplines of art and music (and theatre, film, sculpture, architecture, engineering, philosophy) converge and diverge into less distinguishable categories, movements, tendencies, moments... some or many of these may become the seeds for great cultural contributions of the future. We aim to nurture these seeds through the application of computation. But like any interaction, passes influences in two directions, so we may also ask how understanding media may influence software and technology development in the future."
+	},
+	{ 
+		"code": "GCT 753",
+		"title": "Topics in Computational Design: Artificial Natures",
+		"term": "Winter",
+		"year": "2013",
+		"program": "Graduate School of Culture Technology",
+		"where": "Korea Advanced Institute of Science and Technology (KAIST), Republic of Korea",
+		"summary": "How can we create cultural artifacts (art, architecture, design, service) that are as rich, adaptive, and fascinating as nature? Media computation is often presented in terms of isolated and narrow problem-solving tasks, but the culture technology of tomorrow is increasingly connected, persistent, interactive, and open-ended. How can we create media systems that respond continuously and creatively to an ever-changing environment? From its origins computing has been inspired by nature, including aspects of intelligence, pattern formation, self-construction and reproduction, autonomy and collective behavior. This course introduces the key conceptual frameworks and techniques of bio-inspired computation and their applications in artifacts of cultural technology, particularly for interactive and generative media arts. The course however most strongly emphasizes practice: during the course, creative applications are examined and implemented in interactive audiovisual media. The aim is not only to develop understanding and expertise, but also to look ahead toward the artificial/natural/cultural environments of tomorrow."
+	},
+	
+	{ 
+		"code": "ANT 3010",
+		"title": "Digital Media Art Workshop",
+		"term": "Winter",
+		"year": "2013",
+		"program": "Art & Technology undergraduate program",
+		"where": "Sogang University, Republic of Korea",
+		"summary": "The goal of this class is for students to learn how to create visual and audio expressions through programming, using the most widely used media arts tools today: Processing and Max/MSP/Jitter. Both tools are designed for artists to create computational art using algorithmic techniques. The class starts at beginner level and will end at an intermediate level. Students will do a small assignment each week, and for the mid- and final-term evaluation, they will submit one Processing project and one Max/MSP/Jitter project along with one quiz each (10 to 20 questions) respectively."
+	},
+	
+	
+	{ 
+		"code": "VS2501",
+		"title": "Spatial Interactive Computing",
+		"term": "Winter",
+		"year": "2011",
+		"program": "Mediascapes graduate program",
+		"where": "Southern California Institute for Architecture (SCI-Arc), USA",
+		"summary": "A practice-based course in computational composition and the fundamentals of spatial interactive computing, using Max/MSP/Jitter. The course explores the rich potential of computationally enabled media and technology based art. It conveys a blend of technique, strategy and context but is ultimately focussed on the pragmatics of production using the Max/MSP/Jitter software environment. Max is probably the predominant platform for interactive art and music technology research and performance. For the artist, it is both the Swiss army knife and the Lego of digital media technologies. Not only does it connect everything from video processing, sound synthesis, device interaction, 3D rendering, networking and scripting languages, it is itself a visual programming language with which is compositionally open to a boundless diversity of mappings and logics of interaction and behavior, and very firmly rooted in a notion of real-time interactive computation. The course is focused on using Cosm running on top of Max/MSP/Jitter, a powerful set of tools for the design of real-time computed operations and 3D graphics processing. This advanced course will focus on building a solid understanding of the fundamental concepts of Cosm, the workshop will cover how to build agents, character and behaviors and responsive 3D worlds."
+	},
+	{ 
+		"code": "VS2500",
+		"title": "Fundamentals of Spatial Interactive Computing",
+		"term": "Fall",
+		"year": "2010",
+		"program": "Mediascapes graduate program",
+		"where": "Southern California Institute for Architecture (SCI-Arc), USA",
+		"summary": "A practice-based course in computational composition and the fundamentals of spatial interactive computing, using Max/MSP/Jitter. The course explores the rich potential of computationally enabled media and technology based art. It conveys a blend of technique, strategy and context but is ultimately focussed on the pragmatics of production using the Max/MSP/Jitter software environment. Max is probably the predominant platform for interactive art and music technology research and performance. For the artist, it is both the Swiss army knife and the Lego of digital media technologies. Not only does it connect everything from video processing, sound synthesis, device interaction, 3D rendering, networking and scripting languages, it is itself a visual programming language with which is compositionally open to a boundless diversity of mappings and logics of interaction and behavior, and very firmly rooted in a notion of real-time interactive computation. This advanced course will focus on building a solid understanding of the fundamental concepts of Jitter, namely how to manipulate the Jitter matrix. Building on this foundation, we will explore how audio, video, and geometry can be represented in a matrix to build real-time processing networks. In addition, the workshop will cover how to build 3D worlds and GPU processing of video data for real-time processing of high-quality video."
+	},
+	{ 
+		"code": "VS2500",
+		"title": "Fundamentals of Spatial Interactive Computing",
+		"term": "Fall",
+		"year": "2009",
+		"program": "Mediascapes graduate program",
+		"where": "Southern California Institute for Architecture (SCI-Arc), USA",
+		"summary": "A practice-based course in computational composition and the fundamentals of spatial interactive computing, using Max/MSP/Jitter. The course explores the rich potential of computationally enabled media and technology based art. It conveys a blend of technique, strategy and context but is ultimately focussed on the pragmatics of production using the Max/MSP/Jitter software environment. Max is probably the predominant platform for interactive art and music technology research and performance. For the artist, it is both the Swiss army knife and the Lego of digital media technologies. Not only does it connect everything from video processing, sound synthesis, device interaction, 3D rendering, networking and scripting languages, it is itself a visual programming language with which is compositionally open to a boundless diversity of mappings and logics of interaction and behavior, and very firmly rooted in a notion of real-time interactive computation. This advanced course will focus on building a solid understanding of the fundamental concepts of Jitter, namely how to manipulate the Jitter matrix. Building on this foundation, we will explore how audio, video, and geometry can be represented in a matrix to build real-time processing networks. In addition, the workshop will cover how to build 3D worlds and GPU processing of video data for real-time processing of high-quality video."
+	},
+	
+	
+	{ 
+		"code": "MUSIC CS 105:2",
+		"title": "Art Music Video: Editing and Production",
+		"term": "Winter",
+		"year": "2008",
+		"program": "College of Creative Studies (undergraduate)",
+		"where": "University of California Santa Barbara, USA",
+		"summary": "This course is created primarily at music composition undergraduates who are interested in working with integrated audio and visual media. Students will be exposed to historical precursors from diverse fields, aesthetic and conceptual concerns in the creative design of integrated audiovisual works, and will learn the skills to be able to implement such works according to their own needs. Classes and lab projects will attempt to cover a wide range of digital moving image techniques, from digital video film-work through to algorithmic visual art. In addition to skills gained through the practical work, students should benefit from a contextual understanding of the concerns, precursors and future possibilities of audiovisual media. Classes will include screenings of key and indicative works of a wide variety."
+	},
+	{ 
+		"code": "MUSIC CS 105:1",
+		"title": "Art Music Video: Theory and Technique",
+		"term": "Fall",
+		"year": "2007",
+		"program": "College of Creative Studies (undergraduate)",
+		"program_url": "https://ccs.ucsb.edu",
+		"where": "University of California Santa Barbara, USA",
+		"summary": "The two-quarter course is aimed primarily at music composition undergraduates who are interested in working with integrated audio and visual media. Students will be exposed to historical precursors from diverse fields, aesthetic and conceptual concerns in the creative design of integrated audiovisual works, and will learn the skills to be able to implement such works according to their own needs. Classes and lab projects will attempt to cover a wide range of digital moving image techniques, from digital video film-work through to algorithmic visual art. In addition to skills gained through the practical work, students should benefit from a contextual understanding of the concerns, precursors and future possibilities of audiovisual media. Classes will include screenings of key and indicative works of a wide variety. The first quarter will emphasize grounding theory of integrated audiovisual composition, design and aesthetics, and introduce techniques of audiovisual content generation."
+	},
+	{ 
+		"code": "MUSIC CS 105",
+		"title": "Art Music Video",
+		"term": "Fall",
+		"year": "2006",
+		"program": "College of Creative Studies (undergraduate)",
+		"where": "University of California Santa Barbara, USA",
+		"summary": "This course is an introduction to working with integrated audio and visual media. How do you see music? You will be exposed to historical and contemporary works from the fine arts, abstract and experimental cinema, installation, software and net.art, music video and VJing. We'll explore many aesthetic and conceptual concerns relevant to the creative design of audiovisual works, and the future possibilities of multi-modal composition. Practical sessions will cover techniques in the video capture (including the use of the CCS camera), transfer, editing, montage, transformation/post-production and rendering, along with the use of experimental audiovisual software and processing, DVD mastering, and online dissemination. The main objective is to complete a single, polished audiovisual portfolio piece on DVD, as a visualization of one of your existing compositions of music or sound art."
+	}
+]
+
