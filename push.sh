@@ -1,0 +1,1 @@
+./make.js && git commit -am 'website rebuild' && git push

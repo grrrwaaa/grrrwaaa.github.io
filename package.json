@@ -1,0 +1,23 @@
+{
+  "name": "grrrwaaa.github.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "make.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grrrwaaa/grrrwaaa.github.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grrrwaaa/grrrwaaa.github.com/issues"
+  },
+  "homepage": "https://github.com/grrrwaaa/grrrwaaa.github.com#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "showdown": "^1.9.1"
+  }
+}
