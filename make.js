@@ -32,6 +32,7 @@ $(".tab-source").each(function() {
 	let src_id = $(this).attr("id");
 	let id = src_id.substring(0, src_id.length-9)
 	let text = $(this).html();
+	console.log(src_id, id, text)
 
 	let html = converter.makeHtml(text);
 	write("<!-- " + id + " -->");
