@@ -7,10 +7,10 @@ for D in *; do
         	rm -rf thumbs
         	mkdir thumbs
         	
-        	mogrify -format jpg -sampling-factor 2x1 -quality 95 -unsharp 0x.5 -path thumbs -thumbnail 300x300 *.jpg
+        	mogrify -format jpg -auto-orient -sampling-factor 2x1 -quality 95 -unsharp 0x.5 -path thumbs -thumbnail 300x300 *.jpg
         	
         	# didn't really work for animated gif
-        	mogrify -format png -unsharp 0x.5 -path thumbs -thumbnail 300x300 *.png
+        	mogrify -format png -auto-orient -unsharp 0x.5 -path thumbs -thumbnail 300x300 *.png
         	
         	for G in *.gif; do
         		
