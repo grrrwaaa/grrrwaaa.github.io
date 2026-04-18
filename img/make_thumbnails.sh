@@ -20,4 +20,4 @@ for D in *; do
 
         cd ..
     fi
-done
+donegit co
